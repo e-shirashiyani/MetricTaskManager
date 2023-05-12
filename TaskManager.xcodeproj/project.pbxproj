@@ -14,6 +14,8 @@
 		B8C9E2232A0CDCB00096F45D /* TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9E2222A0CDCB00096F45D /* TaskManagerTests.swift */; };
 		B8C9E22D2A0CDCB00096F45D /* TaskManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9E22C2A0CDCB00096F45D /* TaskManagerUITests.swift */; };
 		B8C9E22F2A0CDCB00096F45D /* TaskManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9E22E2A0CDCB00096F45D /* TaskManagerUITestsLaunchTests.swift */; };
+		B8C9E23C2A0E15880096F45D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9E23B2A0E15880096F45D /* Task.swift */; };
+		B8C9E23E2A0E162F0096F45D /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9E23D2A0E162F0096F45D /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B8C9E2282A0CDCB00096F45D /* TaskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C9E22C2A0CDCB00096F45D /* TaskManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerUITests.swift; sourceTree = "<group>"; };
 		B8C9E22E2A0CDCB00096F45D /* TaskManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8C9E23B2A0E15880096F45D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		B8C9E23D2A0E162F0096F45D /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				B8C9E2132A0CDCAE0096F45D /* ContentView.swift */,
 				B8C9E2152A0CDCB00096F45D /* Assets.xcassets */,
 				B8C9E2172A0CDCB00096F45D /* Preview Content */,
+				B8C9E23B2A0E15880096F45D /* Task.swift */,
+				B8C9E23D2A0E162F0096F45D /* TaskViewModel.swift */,
 			);
 			path = TaskManager;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C9E2142A0CDCAE0096F45D /* ContentView.swift in Sources */,
+				B8C9E23E2A0E162F0096F45D /* TaskViewModel.swift in Sources */,
+				B8C9E23C2A0E15880096F45D /* Task.swift in Sources */,
 				B8C9E2122A0CDCAE0096F45D /* TaskManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
